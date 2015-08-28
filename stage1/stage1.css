@@ -1,0 +1,61 @@
+/* CSS Stage 1 CSS*/
+body{
+	background-color: white;
+	padding: 20px 10px;
+	font-family: Helvetica;
+	max-width: 2000px;
+	margin: 0 auto; 
+}
+
+h1{
+	background-color: black;
+	color: orange;	
+}
+h2{
+	border-radius: 5px;
+	color: orange;
+	padding: 20px 10px;
+	font-family: Helvetica;
+	max-width: 2000px;
+	margin: 0 auto;	
+}
+.main-content{
+	background-color: blue;
+	border-radius: 5px;
+	color: black;
+	padding: 10px;
+	margin: 10px auto;
+}
+.notes_title{
+	text-align: center
+}
+.lesson{
+	background-color: grey;
+	border-radius: 5px;
+	color: black;
+	padding: 10px;
+	margin: 10px auto;
+	font-size: 15px;
+
+}
+.section_title{
+	color:beige;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 25px;
+	margin: 5px;
+}
+.section_block{
+	background-color: #33BEBE;
+	border-radius: 5px;
+	color: black;
+	padding: 10px;
+	margin: 10px auto;
+}
+.section_content{
+	font-size: 20px;
+	font-family: Helvetica;
+}
+.content_markup1{
+	color:yellow;
+}
