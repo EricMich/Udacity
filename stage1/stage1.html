@@ -2,69 +2,69 @@
 <html>
    <head>
       <title>Things I learned about Computers, the internet, and HTML</title>
-      <link rel="stylesheet" type="text/css" href="stage1.css">
+      <link rel="stylesheet" href="stage1.css">
    </head>
    <body>
       <div class="main-content">
          <div class="lesson">
-            <div class="notes_title">
+            <div class="notes-title">
                <h1>Important Concepts</h1>
             </div>
             <div>
                <h2>Lesson 1: The Basics of the Web and HTML</h2>
-               <div class="section_block">
-                  <div class="section_title"><b>How the Web Works</b></div>
-                  <div class="section_content">
+               <div class="section-block">
+                  <h3>How the Web Works</h3>
+                  <div class="section-content">
                      The web as most people know it is a combination of several technologies. The modern web browser, the internet, and a server. A URL is typed into the browser which creates a HTTP request that is sent over the internet, to a server, which in turn serves
                      a HTML document which is read by your browser and displayed.
-                     <div><b>HTML</b></div>
-                     <div>Hyper Text Markup Language is the code that contains the markup, styling, and content which is read by your browser, and is displayed to the user. It has the ability to include images, video, and other types of content.</div>
-                     <div><b>Tags and Elements</b></div>
+                     <h4>HTML</h4>
+                     Hyper Text Markup Language is the code that contains the markup, and content which is read by your browser, and is displayed to the user. It has the ability to include images, video, and other types of content.
+                     <h4>Tags and Elements</h4>
                      Websites are written in HTML which have HTML Elements. Tags are used to tell the browser which HTML elements are there.
-                     <div><b>Why Computers are Stupid</b></div>
+                     <h4>Why Computers are Stupid</h4>
                      Computers are not sentient beings, though people are trying to achieve this future, but in reality computers are "stupid". Computers follow instructions given to them aka code, and follow them explicitly, even if this does give unexpected results because
                      of syntax error.
-                     <div><b>Inline vs. Block Elements</b></div>
-                     Inline elements are tags like b,em,img, and span where they work inline with the content you are displaying. Block elements are tags like p and div which are used to break up content using invisible boxes as blocks that are seperate from other content.
+                     <h4>Inline vs. Block Elements</h4>
+                     Inline elements are tags like <span class="code-element">b</span>,<span class="code-element"> em</span>,<span class="code-element"> img</span>, and <span class="code-element">span</span> where they work inline with the content you are displaying. Block elements are tags like p and div which are used to break up content using invisible boxes as blocks that are seperate from other content.
                   </div>
                </div>
             </div>
          </div>
          <div class="lesson">
             <h2>Lesson 2: Creating a Structured Document with HTML</h2>
-            <div class="section_block">
-               <div class="section_title"><b>Developer Tools (in the Browser)</b></div>
-               <div class="section_content">
+            <div class="section-block">
+               <h3>Developer Tools (in the Browser)</h3>
+               <div class="section-content">
                   Browsers such as Chrome, Firefox, and Safari among others have tools that allow you to review code, design, and provide help to debug issues when building a website. Developer tools are also help you learn how sites are designed.
-                  <div><b>The <em>tree-like structure</em> of HTML</b></div>
-                  HTML interpreted like a tree trunk with branches eaching out to the leaves. At the top you have the <span><em>head</em></span> then the body, which has div tags which make up the branches.
-                  <div><b>The relationship between indented HTML and Boxes</b></div>
-                  When indented html <b>text</b> you indent the invisible box the text is in.
-                  <div><b>Text Editors (for programming)</b></div>
-                  Text editors for programming allow for people writing code to see the syntax so it is faster to write code. They can do things like syntax highlighting in different <span class="content_markup1"> colors </span>, to auto complete functions.
+                  <h4>The <em>tree-like structure</em> of HTML</h4>
+                  The <em>tree-like structure</em> of HTML comes from the the fact that HTML elements can have more element inside of them. These HTML elemnts are interpreted as a series of nested boxes just like a tree trunk with branches eaching out to the leaves in the form of other boxes aka elements. At the top you have the <span class="code-element">head</span> then the <span class="code-element">body</span>, which has <span class="code-element">div</span>, <span class="code-element">span</span>, and <span class="code-element">h1-7</span> tags which make up the branches.
+                  <h4>The relationship between indented HTML and Boxes</h4>
+                  Indenting HTML is used so that when the html <strong>text</strong> is indented, the text corresponds to a more deeply nested box.
+                  <h4>Text Editors (for programming)</h4>
+                  Text editors for programming allow for people writing code to see the syntax so it is faster to write code. They can do things like syntax highlighting in different <span class="code-element">colors</span>, to auto complete functions.
                </div>
             </div>
          </div>
          <div class="lesson">
             <h2>Lesson 3: Adding CSS Style to HTML Structure</h2>
-            <div class="section_block">
-               <div class="section_title"><b>Avoiding Repetition</b></div>
-               <div class="section_content">
+            <div class="section-block">
+               <h3>Avoiding Repetition</h3>
+               <div class="section-content">
                   <span>Avoiding </span>
                   Programmers should avoid repeition. Repetition can lead to errors and doesn't allow for the programmer to be more efficient with their time.
-                  <div><b>Avoding Errors</b></div>
-                  Ways that a programmer can avoid errors start with reducing the <span><b>div</b></span> and <span><b>class</b></span> tags to as few as possible, and creating a non-repeating .css file. This allows the programmer to quickly change their style in one place, and also allows other people to read their code with much less effort. This also reduces repition by using the same tags.
-                  <div><b>Consistency</b></div>
-                  When creating CSS and HTML it behoves the programmer to be consistent or their code will become unmanageable and hard for others to read and understand. By having all the div tags with the correct <span><b>div</b></span> and <span><b>class</b></span> tags it makes it much easier to review your code and decrease the chance or errors.
+                  <h4>Avoding Errors</h4>
+                  Ways that a programmer can avoid errors start with reducing the <span class="code-element">div</span> and <span class="code-element">class</span> tags to as few as possible, and creating a non-repeating .css file. This allows the programmer to quickly change their style in one place, and also allows other people to read their code with much less effort. This also reduces repition by using the same tags.
+                  <h4>Consistency</h4>
+                  When creating CSS and HTML it behoves the programmer to be consistent or their code will become unmanageable and hard for others to read and understand. By having all the div tags with the correct <span class="code-element">div</span> and <span class="code-element">class</span> tags it makes it much easier to review your code and decrease the chance or errors.
                </div>
             </div>
          </div>
          <div class="lesson">
             <h2>CSS</h2>
-            <div class="section_block">
-               <div class="section_title"><b>CSS Notes</b></div>
-               <div class="section_content">
-                  CSS is the acronym for Cascading Style Sheets. CSS is a way for programmers to style or beautify the display HMTML content in the browser. You do this by giving elements a unique <span class="content_markup1"> class </span> which allow you to edit in one place every HTML element without having to repeat the work.
+            <div class="section-block">
+               <h3>CSS Notes</h3>
+               <div class="section-content">
+                  CSS is the acronym for Cascading Style Sheets. CSS is a way for programmers to style or beautify the display HMTML content in the browser. You do this by giving elements a unique <span class="code-element">class</span> which allow you to edit in one place every HTML element without having to repeat the work.
                </div>
             </div>
          </div>
