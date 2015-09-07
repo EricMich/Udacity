@@ -27,7 +27,9 @@ h3{
 	font-size: 25px;
 	margin: 5px;
 }
-
+p {
+    font-size: 0.9em;
+}
 .main-content{
 	background-color: blue;
 	border-radius: 5px;
