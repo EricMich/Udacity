@@ -1,4 +1,5 @@
 /* CSS Stage 1 CSS*/
+
 body{
 	background-color: white;
 	padding: 20px 10px;
@@ -11,6 +12,7 @@ h1{
 	background-color: black;
 	color: orange;	
 }
+
 h2{
 	border-radius: 5px;
 	color: orange;
@@ -18,12 +20,14 @@ h2{
 	max-width: 2000px;
 	margin: 0 auto;	
 }
+
 h3{
 	color:beige;
 	text-align: center;
 	font-size: 25px;
 	margin: 5px;
 }
+
 .main-content{
 	background-color: blue;
 	border-radius: 5px;
@@ -31,9 +35,11 @@ h3{
 	padding: 10px;
 	margin: 10px auto;
 }
+
 .notes-title{
 	text-align: center
 }
+
 .lesson{
 	background-color: grey;
 	border-radius: 5px;
@@ -41,18 +47,20 @@ h3{
 	padding: 10px;
 	margin: 10px auto;
 	font-size: 15px;
-
 }
+
 .section-block{
-	background-color: #33BEBE;
+	background-color: #33bebe;
 	border-radius: 5px;
 	color: black;
 	padding: 10px;
 	margin: 10px auto;
 }
+
 .section-content{
 	font-size: 20px;
 }
+
 .code-element{
 	color:black;
 	font-weight: bold;
